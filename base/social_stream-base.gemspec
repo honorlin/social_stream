@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://social-stream.dit.upm.es/"
   s.files = `git ls-files`.split("\n")
   s.license = 'MIT'
-
+d
   # Runtime gem dependencies
   #
   # Do not forget to require the file at lib/social_stream/base/dependencies !
@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   # SQL foreign keys
   s.add_runtime_dependency('foreigner', '~> 1.1.1')
   # Authentication
-  s.add_runtime_dependency('devise', '~> 2.2.3')
+  #s.add_runtime_dependency('devise', '~> 2.2.3')
   # CRUD controllers
   s.add_runtime_dependency('inherited_resources', '~> 1.4.0')
   # Slug generation
