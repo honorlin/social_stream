@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://social-stream.dit.upm.es/"
   s.files = `git ls-files`.split("\n")
   s.license = 'MIT'
-d
+
   # Runtime gem dependencies
   #
   # Do not forget to require the file at lib/social_stream/base/dependencies !
