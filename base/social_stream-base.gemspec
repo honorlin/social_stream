@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   # Deep Merge support for Hashes
   s.add_runtime_dependency('deep_merge')
   # Rails
-  s.add_runtime_dependency('rails', '>= 3.1.0')
+  #s.add_runtime_dependency('rails', '>= 3.1.0')
   # Rails Engine Decorators
   s.add_runtime_dependency('rails_engine_decorators')
   # Activity and Relation hierarchies
@@ -50,7 +50,7 @@ Gem::Specification.new do |s|
   # Messages
   s.add_runtime_dependency('mailboxer','~> 0.10.3')
   # Tagging
-  s.add_runtime_dependency('acts-as-taggable-on','~> 2.2.2')
+  #s.add_runtime_dependency('acts-as-taggable-on','~> 2.2.2')
   # Background jobs
   s.add_runtime_dependency('resque','~> 1.23.0')
   # Modernizr.js javascript library
